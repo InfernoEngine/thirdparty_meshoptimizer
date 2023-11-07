@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_meshoptimizer</Name>
+		<SourceRoot>src</SourceRoot>
+		<ExportedIncludeDirectory>src</ExportedIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>
+			allocator.cpp
+			clusterizer.cpp
+			indexcodec.cpp
+			indexgenerator.cpp
+			overdrawanalyzer.cpp
+			overdrawoptimizer.cpp
+			quantization.cpp
+			simplifier.cpp
+			spatialorder.cpp
+			stripifier.cpp
+			vcacheanalyzer.cpp
+			vcacheoptimizer.cpp
+			vertexcodec.cpp
+			vertexfilter.cpp
+			vfetchanalyzer.cpp
+			vfetchoptimizer.cpp
+		</ThirdPartySourceFile>
+	</StaticLibrary>
+
+</Module>
